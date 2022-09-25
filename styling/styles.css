@@ -22,6 +22,53 @@ h2 p {
   opacity: 0.7;
 }
 
+.about-projects-btn {
+  padding: 15px 30px;
+  font-family: var(--paragraph-font);
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
+  transition: all 150ms;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.about-projects-btn:hover {
+  background: var(--primary-color) !important;
+  border-radius: 6px;
+  color: var(--secondary-color) !important;
+  font-size: 20px;
+}
+
+.about-section {
+  padding: 160px 20px;
+  margin: 0 70px;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
+  font-family: var(--heading-font);
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--paragraph-font);
+  font-weight: bold;
+}
+
+.about-section p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: var(--paragraph-font);
+}
+
 .btn-branding {
   font-family: var(--paragraph-font);
   background: var(--primary-color);
@@ -51,6 +98,11 @@ h2 p {
 .btn-branding-redirect:hover {
   background: var(--primary-color) !important;
   color: var(--secondary-color) !important;
+}
+
+.chinazas-portrait {
+  width: 100%;
+  border-radius: 200px;
 }
 
 .col-6 h2 {
@@ -113,6 +165,12 @@ h2 p {
   .project-description {
     text-align: center;
   }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 641px) {
@@ -126,5 +184,13 @@ h2 p {
 
   .hero h2 {
     font-size: 18px !important;
+  }
+
+  .about-section h1 {
+    font-size: 50px !important;
+  }
+
+  .about-section h2 {
+    font-size: 20px !important;
   }
 }
