@@ -169,7 +169,7 @@ nav ul {
 }
 
 .content-container {
-  padding: 160px 20px !important;
+  padding: 60px 20px !important;
   margin: 0 70px;
 }
 
@@ -203,7 +203,7 @@ nav ul {
 .hero {
   text-align: center;
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .hero h1 {
